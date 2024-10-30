@@ -1,0 +1,8 @@
+/* This stylesheet is used to style the admin option form of the plugin. */
+.select-category li{
+	list-style-type: none;
+}
+
+.select-category li ul.children{
+	margin-left: 25px;
+}

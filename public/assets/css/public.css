@@ -1,0 +1,47 @@
+/* This stylesheet is used to style the public-facing components of the plugin. */
+.mobigate_game .game_info{
+  position: relative;
+  border: #DBDBDB 1px dashed;
+  background: #fff8e7;
+  padding: 5px 10px 5px 10px;
+  overflow: auto;
+}
+
+.mobigate_game .game_info div{
+	margin: 5px 0;
+}
+
+.mobigate_game .game_info div.game_thumb{
+  float: left;
+  margin-right: 10px;
+}
+
+.mobigate_game .game_info div.nph span{
+	background: #393838;
+	padding: 1px 2px;
+	color: #e9e9e9;
+	font-weight: bold;
+}
+
+.mobigate_game .game_info div.platform span{
+	background: #1a917a;
+	padding: 1px 2px;
+	color: #e9e9e9;
+	font-weight: bold;
+}
+
+.mobigate_game .game_info div.download-sms span{
+	background: #28911a;
+	padding: 1px 2px;
+	color: #e9e9e9;
+	font-weight: bold;
+}
+
+.mobigate-download {
+  font-size: 13px;
+  background: url(download.png) no-repeat;
+  padding-left: 13px;
+  font-weight: 700;
+  margin-left: 2px;
+}
+
